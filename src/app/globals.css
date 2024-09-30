@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: rgb(233, 134, 22);
+  color:white; 
+}
+
+.header-buttons{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  gap: 80px;
+  font-size: 40px;;
+}
+
+.footer{
+  background-color: rgb(233, 134, 22);
+ color: white;
+}
+
+.footer-buttons{
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  gap: 80px;
+  font-size: 40px; 
+}
